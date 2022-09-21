@@ -28,6 +28,9 @@ public class BaseClass {
   public static WebDriver sdriver;
 // protected String browser;
  //protected String url;
+  
+  
+   //code changes done by engg 1
 	@BeforeClass
 	public void classSetUp() {
 		//create instance for the generic Utility
@@ -54,6 +57,7 @@ public class BaseClass {
 		//Map<String,String>map=excelutility.getDataExcelInMap("Register form");
 		//sdriver=driver;
 		 driver=webdriverutility.openBrowserWithApplication(browser,10l,url);
+		   sdriver=driver;
 		//WebDriverUtility.scrollTillElementUsingJS();
 		loginpage=new LoginPage(driver);
 		commonpage = new CommonPage(driver);

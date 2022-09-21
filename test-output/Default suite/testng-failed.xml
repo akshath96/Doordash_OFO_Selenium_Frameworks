@@ -3,14 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="org.doorDashTest.AddDishCartTest1">
+      <class name="org.doorDash.home.ScreenshotPractice">
         <methods>
+          <include name="screenShot"/>
           <include name="classTearDown"/>
-          <include name="addDishCartTest1"/>
           <include name="MethodTearDown"/>
           <include name="classSetUp"/>
         </methods>
-      </class> <!-- org.doorDashTest.AddDishCartTest1 -->
+      </class> <!-- org.doorDash.home.ScreenshotPractice -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

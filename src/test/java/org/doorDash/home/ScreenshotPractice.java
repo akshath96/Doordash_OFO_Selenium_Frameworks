@@ -14,6 +14,6 @@ public void screenShot()throws Throwable{
     ListenerImplementataion.stest.info("Browser launched successfuly");
     //ListenerImplementataion.stest.assignAuthor("");
     
-      Assert.fail();;
+      Assert.fail();
 }
 }
